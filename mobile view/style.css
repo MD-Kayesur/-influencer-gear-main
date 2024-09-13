@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+/*  ------------------------------------------share styles */
+
+  #icon{
+    font-size: 30px;
+   
+}
+.button{
+     padding: 10px 30px;
+     align-items: center;
+     border-radius: 10px;
+     border:none ;
+     background-color: #fe8888;
+     margin-top: 20px;
+     font-size: 20px;
+     font-weight: 600;
+      
+}
+
+/* -------------------------------------navbasr styles start here */
+
+
+header{
+    max-width: 1000px;
+    margin: 30px auto;
+
+}
+ 
+.navbar{
+    display: flex ;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 30px 0px;
+    
+
+}
+
+.nav-name{
+    font-size: 30px;
+    font-weight: 700;
+     
+}
+.nav-list>ul{
+    display: flex;
+   list-style: none;
+}
+.nav-list li{
+    margin-left:40px;
+    cursor: pointer;
+  
+   
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* --------------------------------------------------------juarney styles start here */
+
+
+
+.juarney{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    height: 500px;
+}
+.juarney-width{
+    width: 50%;
+
+}
+.juarney-title{
+    font-size: 40px;
+}
+.juarney-discription{
+    margin-top: 10px;
+    font-weight: 600;
+    color: gray;
+    padding-right: 170px;
+   
+}
+ 
+.juarney-img {
+    background-image: url('/image/Circle design.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+ 
+
+/* -------------------------------------------------------logos  styles start here  */
+.logo{
+    margin-top: 50px;
+}
+
+.loge-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+    border: solid #eceaea 0.5px;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------populer styles start here */
+
+.populer{
+    margin-top: 100px;
+}
+.populer-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+}
+
+.populer-title{
+    text-align: center;
+}
+.card{
+    min-height: 200px;
+    box-shadow:8px 8px 8px  9px #e3e1e1f9 ;
+    padding: 30px;
+    border-radius: 10px;
+    
+     
+}
+
+/* seee more styles */
+
+
+.See-more{
+    text-align: right;
+    margin: 30px 0px;
+    color: #f44b62;
+}
+
+
+/* -----------------------------------------------footer styles start here  */
+
+.footer{
+    background-color: #0b0b0b;
+    color: #ffff;
+    height: 300px;
+    text-align: center;
+    padding: 100px 0px;
+}
+ .footer-list{
+    text-align: center;
+   
+ }
+
+ .footer-list ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+ }
+ .footer-list ul li{
+    margin-left: 20px ;
+    margin-top: 20px;
+ }
+
+
