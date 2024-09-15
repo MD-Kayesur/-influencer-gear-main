@@ -98,7 +98,7 @@ header{
 }
  
 .juarney-img {
-    background-image: url('/image/Circle design.png');
+    background-image: url('./image/Circle design.png');
     background-repeat: no-repeat;
     height: 100%;
     
