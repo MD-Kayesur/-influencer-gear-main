@@ -1,0 +1,42 @@
+@media screen and (max-width: 575px) {
+
+    
+    .nav-list>ul{
+        flex-direction: column;
+    }
+
+
+    .juarney{
+        flex-direction: column;
+        column-gap: 10px;
+    }
+    .juarney-width{
+        width: 100%;
+        padding:20px;
+    }
+    .juarney-discription{
+        padding: 0;
+    }
+.logo{
+margin-top: 250px;
+}
+    .loge-img{
+        flex-direction: column;
+        width: 100%;
+        
+         
+    }
+    .loge-img img{
+        margin-top: 40px;
+    }
+.card>div>img{
+    max-width: max-content100%;
+}
+    .populer-cards{
+        
+        grid-template-columns: repeat(1,1fr);
+ }
+
+ footer{
+    margin-top: 100px;
+ }
